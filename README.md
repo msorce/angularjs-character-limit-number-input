@@ -1,6 +1,6 @@
 # angularjs-character-limit-number-input
 
-
+ using best practices according to  <a href="https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md">https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md</a>
 ```javascript
 angular
   .module('app', []);
