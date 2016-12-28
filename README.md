@@ -1,6 +1,6 @@
 # angularjs-character-limit-number-input
 
-description: number type input directive that limits the character count, and properly handles paste event, it will also focus the submit button when max is reached
+description: number type input directive that limits the character count, and properly handles paste event, it will also focus the submit button when character limit is reached
 
  using best practices according to  <a href="https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md">https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md</a>
 ```javascript
