@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <script src="node_modules/angular/angular.js"></script>
+</head>
+
+<body ng-app="app" ng-cloak>
+  <h1>Angularjs character limit for number inputs</h1>
+  <div ng-controller="mainCtrl as main">
+    max characters = {{main.val}} <br>
+    <form class="" action="index.html" method="post" ng-submit="submit()">
+      <num-max limit="main.val"></num-max>
+      <input type="submit" name="" value="sub">
+    </form>
+  </div>
+
+  <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
