@@ -51,6 +51,7 @@ function numMax($timeout) {
     var eLength,
       sub,
       txt;
+
     function handleInput(e) {
       eLength = element[0].value.length;
       sub = e.target.parentElement.lastElementChild;
@@ -86,5 +87,4 @@ function numMax($timeout) {
   }
 
 }
-
 ```
